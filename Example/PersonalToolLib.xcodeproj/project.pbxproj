@@ -23,6 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		739C964E79E4D3A38384B7EA /* Pods_PersonalToolLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 096CA013B2DFF89D1DBAD349 /* Pods_PersonalToolLib_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8FCFFA85272BA71A00BEFA4B /* NetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCFFA84272BA71A00BEFA4B /* NetTool.m */; };
 		DC57DDD7D0E8D36C7247C663 /* Pods_PersonalToolLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4244D043792AF7A4677C199F /* Pods_PersonalToolLib_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		096CA013B2DFF89D1DBAD349 /* Pods_PersonalToolLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersonalToolLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F741B45883DE61AEA748E72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1F741B45883DE61AEA748E72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		208306963EB9563546EC7FAD /* Pods-PersonalToolLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalToolLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-PersonalToolLib_Example/Pods-PersonalToolLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4244D043792AF7A4677C199F /* Pods_PersonalToolLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersonalToolLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* PersonalToolLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalToolLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,8 +65,11 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E744A5A19459A106F3B2858 /* Pods-PersonalToolLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalToolLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-PersonalToolLib_Tests/Pods-PersonalToolLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A1AB7C195D20393C1886741D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B34A257875C4A4E60A1470E7 /* PersonalToolLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PersonalToolLib.podspec; path = ../PersonalToolLib.podspec; sourceTree = "<group>"; };
+		8FCFFA82272BA70A00BEFA4B /* ToolHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolHeader.h; sourceTree = "<group>"; };
+		8FCFFA83272BA71A00BEFA4B /* NetTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetTool.h; sourceTree = "<group>"; };
+		8FCFFA84272BA71A00BEFA4B /* NetTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetTool.m; sourceTree = "<group>"; };
+		A1AB7C195D20393C1886741D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B34A257875C4A4E60A1470E7 /* PersonalToolLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PersonalToolLib.podspec; path = ../PersonalToolLib.podspec; sourceTree = "<group>"; };
 		BDA3C3E2F9A3B51DDC40B546 /* Pods-PersonalToolLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalToolLib_Example.release.xcconfig"; path = "Target Support Files/Pods-PersonalToolLib_Example/Pods-PersonalToolLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +141,9 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* TOOLSLIBViewController.h */,
 				6003F5A6195388D20070C39A /* TOOLSLIBViewController.m */,
+				8FCFFA82272BA70A00BEFA4B /* ToolHeader.h */,
+				8FCFFA83272BA71A00BEFA4B /* NetTool.h */,
+				8FCFFA84272BA71A00BEFA4B /* NetTool.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +200,6 @@
 				621781C0AFE4415244DD5DF7 /* Pods-PersonalToolLib_Tests.debug.xcconfig */,
 				8E744A5A19459A106F3B2858 /* Pods-PersonalToolLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +265,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -384,6 +391,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* TOOLSLIBAppDelegate.m in Sources */,
+				8FCFFA85272BA71A00BEFA4B /* NetTool.m in Sources */,
 				6003F5A7195388D20070C39A /* TOOLSLIBViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

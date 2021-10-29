@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - PersonalToolLib (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - PersonalToolLib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  PersonalToolLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  PersonalToolLib: f46753971295105dd1f445239fa6009762709ddb
+
+PODFILE CHECKSUM: 1c1619668b82855eee0c3092580612ed6bdbd3db
+
+COCOAPODS: 1.10.0
