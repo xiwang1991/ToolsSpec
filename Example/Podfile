@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'PersonalToolLib_Example' do
+  pod 'PersonalToolLib', :path => '../'
+
+  target 'PersonalToolLib_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
